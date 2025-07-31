@@ -17,12 +17,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Theme2ProductPage />} />
           <Route path="/theme-2" element={<Theme4 />} />
-          <Route path="/theme-3" element={ <Theme7 />} />
-          <Route path="/theme-4" element={<ProductDetailLayout />} />
-          <Route path="/theme-5" element={<Theme6 />} />
-          <Route path="/theme-6" element={<Theme5 />} />
-          <Route path="/theme-7" element={<Theme1 /> } />
-          <Route path="/theme-8" element={<Theme8 />} />
+          <Route path="/theme-7" element={ <Theme7 />} />
+          <Route path="/theme-3" element={<ProductDetailLayout />} />
+          <Route path="/theme-4" element={<Theme6 />} />
+          {/* <Route path="/theme-6" element={<Theme5 />} /> */}
+          <Route path="/theme-6" element={<Theme1 /> } />
+          <Route path="/theme-5" element={<Theme8 />} />
         </Routes>
       </div>
     </Router>

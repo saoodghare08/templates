@@ -10,10 +10,10 @@ function Header() {
     { label: "Theme 2", path: "/theme-2" },
     { label: "Theme 3", path: "/theme-3" },
     { label: "Theme 4", path: "/theme-4" },
+    // { label: "Theme 6", path: "/theme-6" },
     { label: "Theme 5", path: "/theme-5" },
     { label: "Theme 6", path: "/theme-6" },
     { label: "Theme 7", path: "/theme-7" },
-    { label: "Theme 8", path: "/theme-8" },
   ];
 
   const isActive = (path) => location.pathname === path;

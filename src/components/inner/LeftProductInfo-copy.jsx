@@ -16,13 +16,13 @@ const LeftProductInfoCopy = ({ images, onThumbnailClick }) => {
 
       {/* Thumbnails */}
       {/* Thumbnails - only visible on large screens */}
-      <div className="lg:hidden flex lg:flex-wrap justify-center gap-3">
+      <div className="lg:hidden flex lg:flex-wrap justify-center gap-3 bg-[#FAF9F7]">
         {images.map((img, i) => (
           <img
             key={i}
             src={img}
             alt={`thumb-${i}`}
-            className="w-16 h-16 border cursor-pointer hover:opacity-80 transition"
+            className="w-16 h-16 border cursor-pointer hover:opacity-80 transition mix-blend-multiply"
             onClick={() => onThumbnailClick(i)}
           />
         ))}
@@ -34,13 +34,13 @@ const LeftProductInfoCopy = ({ images, onThumbnailClick }) => {
 
       {/* Thumbnails */}
       {/* Thumbnails - only visible on large screens */}
-      <div className="hidden lg:flex lg:flex-wrap lg:gap-2 lg:mt-4">
+      <div className="hidden lg:flex lg:flex-wrap lg:gap-2 lg:mt-4 bg-[#FAF9F7]">
         {images.map((img, i) => (
           <img
             key={i}
             src={img}
             alt={`thumb-${i}`}
-            className="w-16 h-16 border cursor-pointer hover:opacity-80 transition"
+            className="w-16 h-16 border cursor-pointer hover:opacity-80 transition mix-blend-multiply"
             onClick={() => onThumbnailClick(i)}
           />
         ))}

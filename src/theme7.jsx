@@ -26,15 +26,15 @@ const Theme7 = () => {
   }, []);
 
   const images = [
-    "src/assets/Giftset-banner/Bidun-esam-giftset.jpg",
-    "src/assets/Giftset-banner/dakhoon-collection-gift-set.jpg",
+    "src/assets/Giftset-banner/oud-and-roses-gift-set.jpg",
     "src/assets/Giftset-banner/Ihdakhaas banner.jpg",
+    "src/assets/zumar/zumar-2.jpg"
   ];
 
   const sizes = ["75ml", "100ml"];
 
   return (
-    <div className="relative min-h-screen w-full overflow-x-auto scrollbar-none">
+    <div className="relative min-h-screen w-full overflow-x-auto scrollbar-none gap-3">
       {/* Background Swiper */}
       <div className={`${isMobile ? "h-[35vh]" : "h-screen"} relative`}>
         <Swiper
@@ -78,47 +78,16 @@ const Theme7 = () => {
           {/* Front Side */}
           <div className="h-fit inset-0 backface-hidden bg-white p-6 md:px-8 md:pb-8 md:pt-6 space-y-4 flex flex-col justify-center rounded-2xl">
             <div className="space-y-3">
-              <h2 className={`${isMobile ? "text-2xl" : "text-3xl"} font-semibold text-gray-900`}>
+              <h2 className={`${isMobile ? "text-xl" : "text-2xl"} font-semibold text-gray-900 font-pacifico`}>
                 Oud Roses Gift Set
               </h2>
-              <p className={`italic text-gray-500 ${isMobile ? "text-xs" : "text-sm"}`}>
+              <p className={`italic text-gray-500 ${isMobile ? "text-xs" : "text-xs"}`}>
                 A luxurious gift experience infused with Oud & Rose.
               </p>
               <div className="h-[1px] bg-gray-200"></div>
             </div>
 
-            {/* Swiper Thumbnail Preview */}
-              <div className="w-full h-16">
-                <Swiper
-                  modules={[Thumbs]}
-                  onSwiper={setThumbsSwiper}
-                  watchSlidesProgress
-                  slidesPerView={images.length}
-                  spaceBetween={10}
-                  className="h-full"
-                >
-                  {images.map((src, index) => (
-                    <SwiperSlide key={index}>
-                      <div
-                        className={`relative h-full w-full rounded-md overflow-hidden`}
-                      >
-                        <img
-                          src={src}
-                          alt={`Thumb ${index}`}
-                          className={`w-full h-full object-cover rounded-md border transition-all duration-300 ${
-                            activeIndex === index
-                              ? "border-black scale-[1.05] shadow-[0_0_0_2px_#000] ring-2 ring-black"
-                              : "border-gray-300 hover:border-black"
-                          }`}
-                        />
-                        {activeIndex === index && (
-                          <div className="absolute inset-0 animate-pulse border-2 border-black rounded-md pointer-events-none"></div>
-                        )}
-                      </div>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </div>
+           
 
             <div className="flex justify-between items-center">
               <span className={`${isMobile ? "text-lg " : "text-2xl"} font-bold text-gray-800`}>$199.99</span>

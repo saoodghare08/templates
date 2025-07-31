@@ -43,14 +43,14 @@ const MagnifierZoom = ({ src, zoom = 2, lensSize = 150 }) => {
   return (
     <div
       ref={containerRef}
-      className="relative w-full overflow-hidden touch-none"
+      className="relative w-full overflow-hidden touch-none bg-[#FAF9F7]"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
     >
-      <img src={src} alt="Product" className="w-full h-auto object-contain" />
+      <img src={src} alt="Product" className="w-full h-auto object-contain mix-blend-multiply"/>
 
       <div
         className={`absolute pointer-events-none rounded-full border-4 shadow-xl transition-all duration-300 ease-out transform

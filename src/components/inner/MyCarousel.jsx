@@ -13,11 +13,9 @@ const MyCarousel = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const images = [
-    "src/assets/Marj/marj-removebg-preview.png",
-    "src/assets/Marj/marj2-removebg-preview.png",
+  
     "src/assets/Marj/Marj-POM.jpg",
     "src/assets/Marj/Marj-main.jpg",
-    "src/assets/Marj/marj-black-bg.jpg",
   ];
 
   // Handle dynamic screen resize

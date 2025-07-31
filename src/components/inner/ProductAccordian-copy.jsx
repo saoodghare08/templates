@@ -28,7 +28,7 @@ const ProductAccordionCopy = () => {
 
         <AccordionContent className="mx-3 space-y-4 text-sm text-gray-700 font-merriweather">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/482598/perfume-3.svg"
                 alt="Standard Delivery"
@@ -39,7 +39,7 @@ const ProductAccordionCopy = () => {
                 <p className="text-gray-600 text-xs">Eau de Parfum (EDP)</p>
               </div>
             </div>
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/493619/tags-category-categories-labels.svg"
                 alt="Standard Delivery"
@@ -52,7 +52,7 @@ const ProductAccordionCopy = () => {
                 <p className="text-gray-600 text-xs">Occidental, Unisex</p>
               </div>
             </div>
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/490846/measuring-cup.svg"
                 alt="Standard Delivery"
@@ -63,7 +63,7 @@ const ProductAccordionCopy = () => {
                 <p className="text-gray-600 text-xs">100ml</p>
               </div>
             </div>
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/143412/perfume-spray-container.svg"
                 alt="Standard Delivery"
@@ -113,12 +113,12 @@ const ProductAccordionCopy = () => {
               ].map((note, index) => (
                 <div
                   key={index}
-                  className="flex-1 flex flex-col items-center sm:items-start text-center sm:text-left "
+                  className="flex-1 flex flex-col items-center sm:items-start text-center sm:text-left bg-[#FAF9F7]"
                 >
                   <img
                     src={note.image}
                     alt={note.type}
-                    className="h-16 w-16 object-contain rounded-full shadow mb-2"
+                    className="h-16 w-16 object-contain rounded-full shadow mb-2 mix-blend-multiply"
                   />
                   <h4 className="font-semibold text-sm text-gray-700">
                     {note.type}
@@ -144,7 +144,7 @@ const ProductAccordionCopy = () => {
 
           {/* Fragrance Characteristics */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700">
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/322156/delicate-perfume.svg"
                 alt="Standard Delivery"
@@ -155,7 +155,7 @@ const ProductAccordionCopy = () => {
                 <p className="text-gray-600 text-xs">Oriental, Musky, Woody</p>
               </div>
             </div>
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/495856/wind-2.svg"
                 alt="Standard Delivery"
@@ -190,7 +190,7 @@ const ProductAccordionCopy = () => {
             ].map((item, idx) => (
               <div
                 key={idx}
-                className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg px-5 py-3 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out "
+                className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out"
               >
                 <span className="text-sm">{item.icon}</span>
                 <p className="text-gray-800 leading-snug text-sm">
@@ -274,7 +274,7 @@ const ProductAccordionCopy = () => {
         <AccordionContent className="font-merriweather mx-3 space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700">
             {/* Standard Delivery */}
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/378704/shipping-box-v1.svg"
                 alt="Standard Delivery"
@@ -286,13 +286,13 @@ const ProductAccordionCopy = () => {
                   Standard Delivery
                 </h4>
                 <p className="text-gray-600 text-xs">
-                  Delivered in 2–4 business days. Free on orders over $50.
+                  Delivered in 2–4 business days. Free on orders over AED 100.
                 </p>
               </div>
             </div>
 
             {/* Express Delivery */}
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/447599/delivery-fast.svg"
                 alt="Express Delivery"
@@ -309,7 +309,7 @@ const ProductAccordionCopy = () => {
             </div>
 
             {/* International Shipping */}
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/513157/globe-1.svg"
                 alt="International Shipping"
@@ -327,7 +327,7 @@ const ProductAccordionCopy = () => {
             </div>
 
             {/* Eco-Friendly Packaging */}
-            <div className="flex items-start space-x-3 bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out">
+            <div className="flex items-start space-x-3 bg-white/30 border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
               <img
                 src="https://www.svgrepo.com/show/511034/leaf.svg"
                 alt="Eco Friendly"
