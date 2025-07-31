@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Marj",
+      "brand": "Ahmed Al Maghribi",
+      "type": "Oriental Fragrance",
+      "size": "60ml",
+      "price": 165,
+      "description": "Marj is a fragrance that embodies the essence of nature's beauty. It opens with a refreshing burst of citrus notes, creating an invigorating and uplifting experience. The heart reveals a delicate blend of floral and fruity accords, adding a touch of elegance and sophistication. As the fragrance settles, warm woody notes and soft musks create a comforting and inviting aura. Marj is perfect for those who appreciate the beauty of nature and want to carry that essence with them.",
+      "top_notes": ["Citrus", "Bergamot", "Mandarin"],
+      "heart_notes": ["Jasmine", "Rose", "Saffron"],
+      "bottom_notes": ["Oud", "Amber", "Musk"],
+      "image_url": "https://ae.ahmedalmaghribi.com/media/catalog/product/m/a/marj.jpg",
+      "product_url": "https://ae.ahmedalmaghribi.com/en/shop/perfumes/oriental-fragrance/marj"
+    },
+    {
+      "id": 2,
+      "name": "Ahl",
+      "brand": "Ahmed Al Maghribi",
+      "type": "Oriental Fragrance",
+      "size": "60ml",
+      "price": 165,
+      "description": "Ahl is a name that signifies family, kinship, and a deep sense of belonging. This fragrance is a tribute to the warmth of cherished connections, enveloping you in a captivating blend of luxurious notes that evoke comfort, elegance, and sophistication.Ahl is more than just a fragrance, it's a feeling of home, a scent that lingers like the embrace of loved ones, exuding warmth and refinement in every drop.",
+      "top_notes": ["Incense", "Saffron", "Citrus"],
+      "middle_notes": ["Oud", "Jasmine", "Rose"],
+      "base_notes": ["Musk", "Amber", "Leather"],
+      "image_url": "https://ae.ahmedalmaghribi.com/media/catalog/product/a/h/ahl.jpg",
+      "product_url": "https://ae.ahmedalmaghribi.com/en/shop/perfumes/oriental-fragrance/ahl"
+    },
+    {
+      "id": 3,
+      "name": "Dehn Al Oudh Mubakhar",
+      "brand": "Ahmed Al Maghribi",
+      "type": "Concentrated Parfum",
+      "size": "3ml",
+      "price": 75,
+      "description": "An oriental combination of Dahn Al Oud Hindi is used to generate concentrated oil, an extract of expensive oud chips from Assam, an Indian state, which are aged and mastered to maintain their peculiar woody, herbal, earthy, and clean fragrances. These aromas deliver the wearer a sensation of power, brilliance, and freshness, whereas the onlooker is charmed and astonished by the magnificent aura of this exotic perfume. The sumptuous, refined scent offers a novel take on lavish Oudh while still evoking the wonder and enchantment of oriental alchemy. Elegantly blending the refreshing delight of the Mediterranean with the rich Eastern fragrances, Prestige Oudh from Cambodia is a modern take on the traditional woodsy perfume. Dehn Al Oudh Mubakhar is filled with a quantity of 3ml concentrated oil, Emitting the most luxurios aromas.",
+      "top_notes": ["Smoky Oud", "Incense", "Spices"],
+      "middle_notes": ["Oud", "Cedarwood", "Amber"],
+      "base_notes": ["Musk", "Leather", "Benzoin"],
+      "image_url": "https://ae.ahmedalmaghribi.com/media/catalog/product/d/e/dehn_al_oudh_mubakhar.jpg",
+      "product_url": "https://ae.ahmedalmaghribi.com/en/shop/concentrated-parfum/dehn-al-oud/dehn-al-oudh-mubakhar"
+    }
+  ]
+}
