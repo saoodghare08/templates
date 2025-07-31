@@ -29,7 +29,7 @@ function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 text-xl font-bold text-yellow-600">
-            <img src="../assets/ahmed-logo.webp" alt="ahmed logo" className="h-auto w-16" />
+            <img src="src/assets/ahmed-logo.webp" alt="ahmed logo" className="h-auto w-16" />
           </div>
 
           {/* Desktop Navigation */}

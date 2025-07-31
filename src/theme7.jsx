@@ -26,9 +26,9 @@ const Theme7 = () => {
   }, []);
 
   const images = [
-    "./src/assets/Giftset-banner/Bidun-esam-giftset.jpg",
-    "./src/assets/Giftset-banner/dakhoon-collection-gift-set.jpg",
-    "./src/assets/Giftset-banner/Ihdakhaas banner.jpg",
+    "src/assets/Giftset-banner/Bidun-esam-giftset.jpg",
+    "src/assets/Giftset-banner/dakhoon-collection-gift-set.jpg",
+    "src/assets/Giftset-banner/Ihdakhaas banner.jpg",
   ];
 
   const sizes = ["75ml", "100ml"];
