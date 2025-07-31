@@ -6,7 +6,7 @@ import "swiper/css/mousewheel";
 import "swiper/css/autoplay";
 import { X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import RightHalf from "./righthalf";
+import RightHalf from "./RightHalf";
 
 const images = [
   "src/assets/zumar/zumar-1.jpg",
